@@ -1,0 +1,31 @@
+
+<sdf version="1.7">
+	<world name="default">
+		<!-- A global light source -->
+		<include>
+			<uri>model://sun</uri>
+		</include>
+
+		<!-- A ground plane -->
+		<include>
+			<uri>model://ground_plane</uri>
+		</include>
+
+		<include>
+			<uri>model://maze3</uri>
+		</include>
+
+		<include>
+			<uri>model://door</uri>
+		</include>
+
+		<include>
+			<uri>model://last_wall</uri>
+		</include>
+
+		<include>
+			<uri>model://cover</uri>
+		</include>
+
+	</world>
+</sdf>
